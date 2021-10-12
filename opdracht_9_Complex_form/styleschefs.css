@@ -1,0 +1,120 @@
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #000000;
+    background-image: url(img/fire_hor.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8dada;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 60% 40%;       
+
+}
+
+#nav p {
+    display: none;
+}
+
+/* /Wood Burning/ */
+#nav h1 {
+    font-size: 50px;
+    font-style: inherit;
+    
+}
+
+#nav i {
+    font-size: 35px;
+    font-style: italic;
+}
+
+/* /NAVBAR/ */
+#navbar {
+    list-style-type: none;
+    overflow: hidden;      
+    margin: 20px 30px 20px 30px;
+}
+
+#nav {
+    margin: 20px 30px 20px 30px;
+    height: 50px;
+}
+/* /NAVBUTTONS + WOODBURNING/ */
+#navbar li {
+    float: right;
+    color: #000000;
+    text-shadow: #f8dada 2px 2px;     
+}
+/* /NAVbUTTONS/ */
+#navbar li a {
+    display:inline-block;
+    padding: 15px;
+    color:#000;
+    font-size: 20px;
+    text-shadow: #f8dada 1px 1px;
+    margin: 20px 0px 0 40px;
+}
+
+
+.contactButton {
+    display: none;
+
+}
+
+
+
+
+.blockContact {
+    display: block;
+    background-color: #2b2828;
+    opacity: .7;
+    margin: 130px 50px 80px 150px;
+    color: #FFF;
+    padding: 15px 30px 20px 30px;
+    height: 1070px;
+    width: 500px;
+        
+}
+    
+.my-form {
+    padding: 20px;
+}
+
+.my-form input, .my-form textarea {
+    padding: 8px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+.my-form button {
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    box-shadow: #fff 0.5px 0.5px;
+    border: none;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    padding: 20px 20px 0 20px;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 100;
+    color: #756a58; 
+    background-color: #000
+}

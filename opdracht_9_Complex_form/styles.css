@@ -1,0 +1,442 @@
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #000000;
+    background-image: url(img/fire_hor.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8dada;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 60% 40%;       
+
+}
+
+#nav p {
+    display: none;
+}
+
+/* /Wood Burning/ */
+#nav h1 {
+    font-size: 50px;
+    font-style: inherit;
+    
+}
+
+#nav i {
+    font-size: 35px;
+    font-style: italic;
+}
+
+/* /NAVBAR/ */
+#navbar {
+    list-style-type: none;
+    overflow: hidden;      
+    margin: 20px 30px 20px 30px;
+}
+
+#nav {
+    margin: 20px 30px 20px 30px;
+    height: 50px;
+}
+/* /NAVBUTTONS + WOODBURNING/ */
+#navbar li {
+    float: right;
+    color: #000000;
+    text-shadow: #f8dada 2px 2px;     
+}
+/* /NAVbUTTONS/ */
+#navbar li a {
+    display:inline-block;
+    padding: 15px;
+    color:#000;
+    font-size: 20px;
+    text-shadow: #f8dada 1px 1px;
+    margin: 20px 0px 0 40px;
+}
+
+.block {
+    display: block;
+    background-color: #2b2828;
+    opacity: .7;
+    float: right;
+    width: 400px;
+    margin: 70px 50px 0 0px;
+    color: #FFF;
+    padding: 15px 30px 20px 30px;
+    height: 350px;
+    font-size: 14px;
+
+}
+
+.contactButton {
+    display: none;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 100;
+    color: #756a58 
+}
+
+/* Contact.html */
+
+.blockContact {
+    display: block;
+    
+    background-color: #2b2828;
+    opacity: .7;
+    float: right;
+    margin: 100px 50px 0 0px;
+    color: #FFF;
+    padding: 15px 30px 20px 30px;
+    height: 400px;
+    width: 300px;
+        
+}
+    
+.my-form {
+    padding: 20px;
+}
+
+.my-form input, .my-form textarea {
+    padding: 8px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+.my-form button {
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    box-shadow: #fff 0.5px 0.5px;
+    border: none;
+}
+
+
+@media (min-width: 320px) {
+    body {
+        background-color: #000000;
+        background-image: url(img/fire_vert.jpg!d);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #f8dada;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        background-position: 100%;;
+    }
+
+    /* /Wood Burning/ */
+    #nav h1 {
+        font-size: 25px;
+        font-style: inherit;
+        margin: 0;
+    }
+    
+    #nav i {
+        font-size: 15px;
+        font-style: italic;
+    }
+    
+    /* /NAVBAR/ */
+    #navbar {
+        list-style-type: none;
+        overflow: hidden;
+        margin: 20px 20px 0 0px;       
+    }
+    
+    #nav {
+        margin: 0;
+        height: 50px;
+    }
+
+    /* /NAVBUTTONS + WOODBURNING/ */
+    #navbar li {
+        float: right;
+        color: #000000;
+        text-shadow: #f8dada 2px 2px;     
+    }
+
+    /* /NAVbUTTONS/ */
+    #navbar li a {
+        display: none;         
+    }
+     
+    #nav p {
+        display: block;
+        float: right;
+        margin: 15px 0 10px 0px;         
+    }
+
+
+    .block {
+        display: block;
+        background-color: #2b2828;
+        opacity: .7;
+        width: 100%;
+        margin: 100px 25px 0 20px;
+        color: #FFF;
+        padding: 10px 10px 10px 10px;
+        height: 400px;
+        width: 250px;
+        font-size: 12px;                        
+    }
+
+    .contactButton {
+        display: block;
+        position: absolute;
+        margin: 0 0px 20px 60px;
+        float: center;
+        bottom: 50px;
+        width: 200px;
+        font-size: 10px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        text-shadow: -1px -1px #000;
+        user-select: none;
+        padding: .8em 2em;
+        outline: none;
+        background-color: #000;
+        background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+        background-repeat: no-repeat;
+        background-size: 200% 100%, auto;
+        background-position: 200% 0, 0 0;
+        box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+    }
+
+    #conatainer {
+        position: static;
+    }
+
+
+    /* a.button25:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset; 
+} */
+
+    footer {
+        position: fixed;
+        background-color: #000000;
+        bottom: 0;
+        padding: 10px 20px 0 20px;
+        width: 100%;
+        font-weight: 100;
+        font-size: 10px;
+        color: #756a58; 
+        margin: 0px 0 0 0;
+        height: 20px;
+    }
+
+    /* Contact.html */
+
+    .blockContact {
+        display: block;
+        position: center;
+        background-color: #2b2828;
+        opacity: .7;
+        width: 250px;
+        margin: 100px 20px 0 0px;
+        color: #FFF;
+        padding: 15px 20px 20px 15px;
+        height: 350px;          
+    }
+    
+    .my-form {
+        padding: 20px;
+    }
+
+    .my-form input, .my-form textarea {
+        padding: 8px;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form-group {
+        padding-bottom: 15px;
+    }
+
+    .my-form button {
+        background-color: #000;
+        opacity: 1;
+        color: #fff;
+        width: 70px;
+        height: 30px;
+        box-shadow: #fff 0.5px 0.5px;
+        border: none;
+    }
+
+   
+
+    @media  (min-width: 768px) {
+        body {
+            background-color: #000000;
+            background-image: url(img/fire_hor.jpg);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #f8dada;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: 60% 40%;
+        }
+ 
+        #nav p {
+            display: none;
+        }
+
+        /* /Wood Burning/ */
+        #nav h1 {
+            font-size: 50px;
+            font-style: inherit;
+        }
+
+        #nav i {
+            font-size: 35px;
+            font-style: italic;
+        }
+
+        /* /NAVBAR/ */
+        #navbar {
+            list-style-type: none;
+            overflow: hidden;      
+        }
+
+        #nav {
+            margin: 0 0px 0 0px;
+            height: 50px;
+        }
+
+        /* /NAVBUTTONS + WOODBURNING/ */
+        #navbar li {
+            float: right;
+            color: #000000;
+            text-shadow: #f8dada 2px 2px;     
+        }
+
+        /* /NAVbUTTONS/ */
+        #navbar li a {
+            display:inline-block;
+            padding: 15px;
+            color:#000;
+            font-size: 20px;
+            text-shadow: #f8dada 1px 1px;
+            margin: 0px 0px 0 0px;
+        }
+
+        .block {
+            display: block;
+            background-color: #2b2828;
+            opacity: .7;
+            float: right;
+            width: 400px;
+            margin: 100px 50px 0 0px;
+            color: #FFF;
+            padding: 15px 30px 20px 30px;
+            height: 350px;
+            font-size: 14px;       
+        }
+
+        .contactButton {
+            display: none;
+            position: absolute;
+            margin: 0 50px -50px 50px;
+            float: right;
+            bottom: 170px;
+            width: 300px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 10px;
+            text-decoration: none;
+            text-shadow: -1px -1px #000;
+            user-select: none;
+            padding: .8em 2em;
+            outline: none;
+            background-color: #000;
+            background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+            background-repeat: no-repeat;
+            background-size: 200% 100%, auto;
+            background-position: 200% 0, 0 0;
+            box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+        }
+    
+        #conatainer {
+            position: static;
+        }
+    
+        footer {
+            position: fixed;
+            bottom: 0;
+            height: 30px;
+            padding-bottom: 20px;
+            font-size: 14px;
+            width: 100%;
+            font-weight: 100;
+            color: #756a58 
+        }
+     
+        /* Contact.html */
+
+        .blockContact {
+            display: block;
+            background-color: #2b2828;
+            opacity: .7;
+            float: right;
+            margin: 100px 55px 10px 0px;
+            color: #FFF;
+            padding: 15px 30px 20px 30px;
+            height: 400px;
+            width: 400px;
+        
+        }
+    
+        .my-form {
+            padding: 20px;
+        }
+
+        .my-form input, .my-form textarea {
+            padding: 8px;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .form-group {
+            padding-bottom: 15px;
+        }
+
+        .my-form button {
+            background-color: #000;
+            opacity: 1;
+            color: #fff;
+            width: 70px;
+            height: 30px;
+            box-shadow: #fff 0.5px 0.5px;
+            border: none;
+        }
+    }
+}
